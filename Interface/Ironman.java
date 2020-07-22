@@ -13,5 +13,4 @@ public class Ironman implements Superhero {
     public void Move() {
         System.out.println("fly with engine\n");
     }
-    
 }

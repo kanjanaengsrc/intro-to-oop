@@ -1,5 +1,4 @@
 package Interface;
-
 public class Spiderman extends Spider implements Superhero {
     private String weapon;
     public Spiderman(int legs,String w) {
@@ -14,5 +13,4 @@ public class Spiderman extends Spider implements Superhero {
     public void Move() {
         System.out.printf("walk on %d legs\n",this.numOfLegs);
     }
-    
 }
